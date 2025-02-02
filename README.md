@@ -22,6 +22,8 @@ Solution : setInterval() mis à jour toutes les secondes.
 Problème : Gestion du modal
 Solution : Utilisation de ref() pour stocker les données du lancement sélectionné.
 
+Pas habituer au Tailwind CSS et Le Modal
+
 6. Choix techniques
 Vue.js + Composition API : Simplicité et réactivité.
 TypeScript : Typage des données pour éviter les erreurs.
