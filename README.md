@@ -1,10 +1,31 @@
-# Vue 3 + TypeScript + Vite
+🚀 Rapport de développement - SpaceX Launches
+1. Introduction
+Brève présentation du projet :
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Objectif : Afficher les lancements de SpaceX avec des filtres et un compte à rebours.
+Technologies utilisées : Vue.js (Composition API), TypeScript, API SpaceX.
+2. Fonctionnalités développées
+Affichage du prochain lancement avec un décompte en temps réel.
+Liste des 10 derniers lancements avec filtres (tous, réussis, échoués).
+Un modal affichant les détails d’un lancement.
+Affichage dynamique des données via l’API SpaceX.
+3. Difficultés rencontrées et solutions
+Problème : Récupération et filtrage des données
+Solution : Utilisation de computed() pour gérer dynamiquement les filtres.
+Problème : Affichage en temps réel du décompte
+Solution : setInterval() mis à jour toutes les secondes.
+Problème : Gestion du modal
+Solution : Utilisation de ref() pour stocker les données du lancement sélectionné.
+4. Choix techniques
+Vue.js + Composition API : Simplicité et réactivité.
+TypeScript : Typage des données pour éviter les erreurs.
+API SpaceX : Accès aux données en temps réel.
+5. Ressources utilisées
+Documentation Vue.js
+API SpaceX
+Forums (Stack Overflow, Vue.js Community)
+6. Conclusion
+Projet réussi avec les fonctionnalités demandées. Possibles améliorations :
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
-# ProjetSpaceX
-# ProjetSpaceX
-# ProjetSpaceX
-# ProjetSpaceX
-# ProjetSpaceX
+Ajouter une pagination pour afficher plus de lancements.
+Optimiser le décompte pour éviter les mises à jour inutiles.
